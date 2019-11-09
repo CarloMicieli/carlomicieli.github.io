@@ -2,7 +2,6 @@
 layout: post
 title: FPiS: Getting Started
 date: 2016-04-29
-draft: false
 slug: 2016/04/29/fpis-getting-started
 #[taxonomies]
 #tags = ["scala", "functional programming", "types", "functions"]
