@@ -72,7 +72,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  github: true
+  facebook: true
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -143,7 +143,7 @@ date_format: "%B %-d, %Y"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5
 
 kramdown:

@@ -2,7 +2,6 @@
 layout: post
 title: Highlights From Curry-on Prague
 date: 2015-07-19
-slug: /2015/07/19/highlights-from-curry-on-prague
 #[taxonomies]
 #tags = ["conferences", "functional programming", "programming languages design"]
 ---
