@@ -2,7 +2,6 @@
 layout: post
 title: Fibonacci Numbers
 date: 2016-03-29
-slug: /2016/03/29/fibonacci-numbers
 #[taxonomies]
 #tags = ["scala", "functional programming"]
 ---
