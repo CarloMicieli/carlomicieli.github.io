@@ -2,7 +2,7 @@
 layout: post
 title: Fun With Functions in Scala
 date: 2015-07-25
-slug = "/2015/07/25/fun-with-functions-in-scala/"
+slug: /2015/07/25/fun-with-functions-in-scala/
 #[taxonomies]
 #tags = ["scala", "functional programming", "functions"]
 ---
