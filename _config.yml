@@ -18,13 +18,6 @@ description: Carlo Micieli's blog
 
 navbar-links:
   About Me: "aboutme"
-<<<<<<< HEAD
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-=======
->>>>>>> fe143c2 (Update config)
 
 # --- Logo --- #
 
@@ -66,11 +59,10 @@ social-network-links:
 author:
   name: Carlo Micieli
 
-<<<<<<< HEAD
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
-=======
+
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
@@ -81,7 +73,6 @@ social-network-links:
   github: CarloMicieli
   twitter: ChuckMiskyes
   linkedin: carlomicieli
->>>>>>> fe143c2 (Update config)
 
 # --- General options --- #
 
