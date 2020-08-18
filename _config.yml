@@ -14,7 +14,7 @@ author: Some Person
 navbar-links:
   About Me: "aboutme"
 
-  # --- Logo --- #
+# --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
@@ -32,8 +32,7 @@ round-avatar: true
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Carlo Micieli
+author: Carlo Micieli
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
