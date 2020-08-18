@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Carlo Micieli
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I'm a software engineer with 15+ years of experience. Since my humble beginning when I was writing programs with basic on my commodore 64, the guiding principle during my professional career is to always use the appropriate tool to solve the problem at hand. I can write code with C#, Java and Scala. I had exposure to both relational databases (ORACLE, Sql server) and NoSql databases (MongoDB).
 
-What else do you need?
+- I have a true passion for the software development process, from specification to testing (or from testing to development, when I'm using TDD). I am passionate about deepening my knowledge of new technologies.
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- I'm an internal trainer, teaching sql to non IT colleagues. I love to share my knowledge as much as I love to learn new things. 
