@@ -1,13 +1,16 @@
-# --- Basic options --- #
-
-# Name of website
-title: carlo::to_blog()
+# Welcome to Beautiful Jekyll!
+# This config file is meant for settings that affect your entire website. When you first
+# set up your website you should go through all these settings and edit them, but after
+# the initial set up you won't need to come back to this file often.
 
 # Short description of your site
 description: Carlo Micieli's blog
 
+# Name of website
+title: carlo::to_blog()
+
 # Your name to show in the footer
-author: Some Person
+author: Carlo Micieli
 
 # --- List of links in the navigation bar --- #
 
@@ -23,12 +26,12 @@ avatar: "/assets/img/avatar-icon.png"
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
-# If you want to have an image logo in the top-left corner instead of the title text,
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
 
 
-# --- Footer options --- #
+# --- Footer social media links --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
@@ -45,6 +48,12 @@ social-network-links:
   twitter: ChuckMiskyes
   linkedin: carlomicieli
 
+# If you want to show a link to an RSS in the footer, add the site description here.
+# If you don't want to show an RSS link, remove the following line.
+rss-description: Carlo Micieli's blog
+
+# --- General options --- #
+
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
@@ -56,12 +65,57 @@ share-links-active:
 # Remove this if you don't want a link in the footer
 url-pretty: "carlomicieli.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
-# --- Web Statistics Section --- #
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+
+# The keywords to associate with your website, for SEO purposes
+#keywords: "my,list,of,keywords"
+
+# --- Colours / background image --- #
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to an image
+# instead of colour
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+#mobile-theme-col: "#0085A1"
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+#site-css:
+#  - "/assets/css/custom-styles.css"
+
+# If you have common JavaScript files that should be included in every page, list them here
+#site-js:
+#  - "/assets/js/custom-script.js"
+
+# --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
 #gtag: ""
 
-# Fill in your Google Analytics ID to track your website using GA
+# Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
 
 # Google Tag Manager ID
@@ -109,21 +163,16 @@ url-pretty: "carlomicieli.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
-
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
 
-
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
@@ -142,13 +191,11 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
   -
     scope:
-      path: "" # all files
+      path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
-      show-avatar: true
 
 # Exclude these files from production site
 exclude:
