@@ -2,8 +2,7 @@
 layout: post
 title: Fibonacci Numbers
 date: 2016-03-29
-#[taxonomies]
-#tags = ["scala", "functional programming"]
+tags: ["scala", "functional programming"]
 ---
 
 Lately I’m getting overly obsessed over the legendary Fibonacci numbers.

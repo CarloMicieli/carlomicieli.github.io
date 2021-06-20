@@ -3,7 +3,7 @@ layout: post
 title: Highlights From Curry-on Prague
 date: 2015-07-19
 #[taxonomies]
-#tags = ["conferences", "functional programming", "programming languages design"]
+tags: ["conferences", "functional programming", "programming languages design"]
 ---
 
 Here it comes a list of pseudo-random thoughts on **Curry-on**, a programming languages designers/nerds conference held in Prague.

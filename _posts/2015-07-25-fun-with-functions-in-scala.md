@@ -2,8 +2,7 @@
 layout: post
 title: Fun With Functions in Scala
 date: 2015-07-25
-#[taxonomies]
-#tags = ["scala", "functional programming", "functions"]
+tags: ["scala", "functional programming", "functions"]
 ---
 
 In functional programming **functions** are the basic building block. Scala is a hybrid language where _imperative_ and _functional_ programming paradigms live side by side, it's also targeting the JVM, and until Java 8 will rule the land, functions must behave nicely in the bytecode produced by the compiler.

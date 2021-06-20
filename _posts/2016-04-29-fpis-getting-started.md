@@ -2,8 +2,7 @@
 layout: post
 title: FPiS Getting Started
 date: 2016-04-29
-#[taxonomies]
-#tags = ["scala", "functional programming", "types", "functions"]
+tags: ["scala", "functional programming", "types", "functions"]
 ---
 
 The first two chapters of **Functional Programming in Scala** (_"FPiS"_ from now on) contain introduction material to both Scala and functional programming.
