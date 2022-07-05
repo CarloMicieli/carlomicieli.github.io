@@ -11,13 +11,14 @@ title: carlo::to_blog()
 # Your name to show in the footer
 author: Carlo Micieli
 
-# Short description of your site
-description: Carlo Micieli's blog
-
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -34,44 +35,41 @@ round-avatar: true
 
 
 # --- Footer social media links --- #
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  rss: true
   email: "piovarolo@gmail.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  facebook: deanattali
   github: CarloMicieli
   twitter: ChuckMyskies
+#  patreon: DeanAttali
+#  youtube: c/daattali
+#  medium: yourname
+#  reddit: yourname
   linkedin: carlomicieli
-
-# Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author: Carlo Micieli
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
+#  discord: invite/invite_code or users/userid 
+#  kaggle: yourname
+#  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "piovarolo@gmail.com"
-  github: CarloMicieli
-  twitter: ChuckMiskyes
-  linkedin: carlomicieli
 
 # --- General options --- #
 
@@ -84,7 +82,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "carlomicieli.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "carlomicieli.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -219,10 +217,10 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Rome"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
