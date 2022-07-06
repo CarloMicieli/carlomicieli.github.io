@@ -8,7 +8,7 @@ tags: ["conferences", "functional programming", "programming languages design"]
 
 Here it comes a list of pseudo-random thoughts on **Curry-on**, a programming languages designers/nerds conference held in Prague.
 
-![Curry-On badge](/assets/img/2015/07/curryon_badge.png)
+![Curry-On badge](/img/2015/07/curryon_badge.png)
 
 **Programs Wanted: Dead or Alive** The initial keynote speech was given by Gilad Bracha who set the tone for the following two days, discussing about the tension between live and dead. He applied this to programming, making a comparison between live programming and dead programming. He gave his view on how we are basically favoring dead software because it is much easier to reason about things that are not changing. He also discussed the languages and the tools that support our daily programming. Using smalltalk as example he showed a view on how live programming should look like; taking inspiration from literate programming we should be able to make changes on the fly to our programs, refresh and see the changes. He also went forward discussing the possibilities with time traveling debugging (and this point showed up in the closing keynote too with the Elm debugger).
 
@@ -38,7 +38,7 @@ Here it comes a list of pseudo-random thoughts on **Curry-on**, a programming la
 
 **Coding for Types: The Universe Pattern in Idris** in his talk David Christiansen made a quick introduction of dependent types with Idris, and then showed examples of its use.
 
-![Curry-On badge](/assets/img/2015/07/curryon_phil.jpeg)
+![Curry-On badge](/img/2015/07/curryon_phil.jpeg)
 
 **Everything old is new again**: Quoted domain specific languages Philip Wadler in his talk showed an example of an embedded DSL: an evolution of Linq implemented in F#.
 
