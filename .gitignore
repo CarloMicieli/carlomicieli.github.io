@@ -1,13 +1,9 @@
-# project
-_site
-.sass-cache
-.vagrant
+# Zola output directory
+public/
 
-# general
+# OS generated files
 .DS_Store
 Thumbs.db
-ehthumbs.db
 
-Gemfile.lock
-
-beautiful-jekyll-theme-*.gem
+# Sass cache
+.sass-cache/
