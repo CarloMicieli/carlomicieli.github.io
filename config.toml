@@ -5,6 +5,10 @@ description = "My personal blog and portfolio"
 default_language = "en"
 theme = "tabi"
 
+taxonomies = [
+    {name = "tags"},
+]
+
 # Highlight settings
 [markdown]
 
