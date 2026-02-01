@@ -1,6 +1,28 @@
 /* Import a nice coding font from Google Fonts (Optional) */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Increase the main content width for better code display */
+:root {
+    /* Tabi default is often around 750px-800px */
+    --max-width: 1100px;
+}
+
+/* Ensure the main container respects the new width */
+.container,
+main,
+article {
+    max-width: var(--max-width) !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Optional: Specifically widen code blocks even more if desired */
+pre {
+    width: 100%;
+    max-width: 100%;
+}
+
+
 /* Target code blocks and inline code */
 code,
 pre,
