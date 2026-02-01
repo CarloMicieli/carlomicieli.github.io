@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "https://CarloMicieli.github.io"
+title = "carlo::to_blog()"
+description = "My personal blog and portfolio"
+default_language = "en"
+theme = "tabi"
+
+# Highlight settings
+[markdown]
+
+
+[extra]
+# Feature flags
+show_reading_time = true
+show_last_updated = true
+
+# Social Links
+# The user specified LinkedIn and GitHub.
+socials = [
+    { name = "github", url = "https://github.com/CarloMicieli", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/carlomicieli", icon = "linkedin" },
+]
+
+# Navigation Menu
+# Tabi usually iterates over `menu_items` or uses Zola's section/page data. 
+# But for a specific order and external links, we use `menu` or `nav`. Tabi standard is `menu`.
+[[extra.menu]]
+name = "Blog"
+url = "/blog"
+
+[[extra.menu]]
+name = "Projects"
+url = "/projects"
+
+[[extra.menu]]
+name = "About"
+url = "/about"

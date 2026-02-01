@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Build and Deploy
+        uses: shalzz/zola-deploy-action@v0.18.0
+        env:
+          # Target branch for the built site
+          PAGES_BRANCH: gh-pages
+          # Token to push to the branch
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
