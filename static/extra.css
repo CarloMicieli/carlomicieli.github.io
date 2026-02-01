@@ -1,0 +1,22 @@
+/* Import a nice coding font from Google Fonts (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Target code blocks and inline code */
+code,
+pre,
+.giallo-l {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.95em;
+    /* Adjust size if it looks too big/small */
+    line-height: 1.6;
+    /* Give the code some breathing room */
+    font-variant-ligatures: normal;
+    /* Enable ligatures if your font supports them */
+}
+
+/* Optional: Make line numbers look subtler */
+.giallo-ln {
+    font-family: 'JetBrains Mono', monospace;
+    opacity: 0.5;
+    padding-right: 1em;
+}

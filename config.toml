@@ -12,11 +12,20 @@ taxonomies = [
 # Highlight settings
 [markdown]
 
+[markdown.highlighting]
+# Tabi needs "class" style to work with its built-in CSS
+style = "class"
+
+# You must specify themes so Zola generates the CSS files
+# Tabi is designed around Catppuccin, but you can choose others:
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-mocha"
 
 [extra]
 # Feature flags
 show_reading_time = true
 show_last_updated = true
+stylesheets = ["extra.css"]
 
 # Social Links
 # The user specified LinkedIn and GitHub.
